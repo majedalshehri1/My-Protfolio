@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--==================== Tailwind ====================-->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>MajedWeb</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container-1">
+            <a href="#" class="nav__logo">Majed</a>  
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid-404">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-panorama-h-alt nav__icon"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+
+
+
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container-1 grid-404" >
+                    <div class="home__content grid-404">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/majedd/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/majedshh1" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://github.com/majedalshehri1" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__image">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='0' y='0' xlink:href="assets/img/me.jpg"/>
+                                </g>
+                            </svg>
+                            
+                        </div> 
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Majed</h1>
+                            <h3 class="home__subtitle">MERNStack developer</h3>
+                            <p class="home__description">I'm a MERNStack Developer specializing in building exceptional digital experiences. 
+                                Currently, I'm focused on building responsive web applications.</p>
+                                <a href="#contact" class="button button--flex">
+                                    Contact Me<i class="uil uil-message button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skillsSection" id="skills">
+                <div class="titleIcon">
+                    <span>Tech Stack</span>
+                </div>
+                
+                <div class="skills__container container-1 ">
+                    <div class="skillsIcon">
+
+                        <div class="html5 icon">
+                            <img src="assets/icons/html.png" alt="">
+                        </div>
+                        <div class="css3 icon">
+                            <img src="assets/icons/css-3.png" alt="">
+                        </div>
+                        <div class="javaScript icon">
+                            <img src="assets/icons/js.png" alt="">
+                        </div>
+                        <div class="Bootstrap icon">
+                            <img src="assets/icons/bootstrap.png" alt="">
+                        </div>
+                        <div class="tailwind icon">
+                            <img src="assets/icons/tailwind-css (1).png" alt="">
+                        </div>
+                        <div class="react icon">
+                            <img src="assets/icons/react.png" alt="">
+                        </div>
+                        <div class="nodejs icon">
+                            <img src="assets/icons/node-js.png" alt="">
+                        </div>
+                        <div class="express icon">
+                            <img src="assets/icons/express.png" alt="">
+                        </div>
+                        <div class="mongodb icon">
+                            <img src="assets/icons/mongodb.png" alt="">
+                        </div>
+                        <div class="figma icon">
+                            <img src="assets/icons/figma.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section mb-64" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container-1 grid-404">
+                    <img src="assets/img/about2.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">Hi I'm Majed Alshehri software engineering student and web developer with a knowledge
+                            in front-end, back-end and database, My objective is simply to be the best web developer that
+                            I can be and to contribute to the technology industry all that I know and can do.
+                            I am dedicated to perfecting my craft by learning from more seasoned developers.</p>
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">01+</span>
+                                    <span class="about__info-name">Years <br> experience</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">06+</span>
+                                    <span class="about__info-name">Completed <br> project</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">02+</span>
+                                    <span class="about__info-name">Companies <br> worked</span>
+                                </div>
+                            </div>
+
+                            <div class="about__buttons">
+                                <a download="" href="###########" class="button button--flex">
+                                    Download CV<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== PROJECTS ====================-->
+            <section class="projects selection" id="projects">
+                <!-- Container for demo purpose -->
+            <div class="projects container my-24 mx-auto md:px-6">
+                <!-- Section: Design Block -->
+                <section class="mb-32 text-center">
+                <h2 class="section__title">
+                    Projects
+                </h2>
+                <span class="section__subtitle">Here are some of my projects</span>
+            
+                <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
+                    <div class="mb-6 lg:mb-0">
+                        <div class="colorCard relative block rounded-lg border-2 border-[#8781ff4c]">
+                            <div class="flex">
+                            <div class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] "
+                                >
+                                <img src="assets/img/p3.png" class="w-full" />
+                                <a href="#!">
+                                <div
+                                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                                </a>
+                            </div>
+                            </div>
+                            <div class="p-6">
+                            <h5 class="mb-4 text-lg font-bold">CRUDS App</h5>
+                            <p class="mb-6">
+                                Full product management project by use JavaScript
+                                and followed best practices to build a js application.
+                            </p>
+    
+                            <div class="space-x-6 flex justify-center">
+                                <a href="https://github.com/majedalshehri1/CRUDS-APP-JS.git" 
+                                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 `active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                                Code <i class="uil uil-github"></i></a>
+                                <a href="#!" 
+                                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 `active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                                Live Demo <i class="uil uil-external-link-alt"></i></a>
+                            </div>
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+            
+                    <div class="mb-6 lg:mb-0">
+                    <div class="colorCard relative block rounded-lg border-2 border-[#8781ff4c]">
+                        <div class="flex">
+                        <div class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] "
+                            >
+                            <img src="assets/img/p1.png" class="w-full" />
+                            <a href="#!">
+                            <div
+                                class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="p-6">
+                        <h5 class="mb-4 text-lg font-bold">SkillChamp Platform</h5>
+                        <p class="mb-6">
+                            SkillChamp is a platform that empowers developers with 
+                            daily and weekly challenges, promoting competition, learning, 
+                            and community engagement.
+                        </p>
+
+                        <div class="space-x-6 flex justify-center">
+                            <a href="https://github.com/majedalshehri1/hackathon-skillchamp-project.git" 
+                            class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 `active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                            Code <i class="uil uil-github"></i></a>
+                            <a href="https://majedalshehri1.github.io/hackathon-skillchamp-project/" 
+                            class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 `active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                            Live Demo <i class="uil uil-external-link-alt"></i></a>
+                        </div>
+                        
+                        </div>
+                        
+                    </div>
+                    </div>
+            
+                    <div class="mb-0">
+                        <div class="colorCard relative block rounded-lg border-2 border-[#8781ff4c]">
+                            <div class="flex">
+                            <div class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] "
+                                >
+                                <img src="assets/img/p2.png" class="w-full" />
+                                <a href="#!">
+                                <div
+                                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                                </a>
+                            </div>
+                            </div>
+                            <div class="p-6">
+                            <h5 class="mb-4 text-lg font-bold">Todo App</h5>
+                            <p class="mb-6">
+                                In this project, I applied my knowledge of 
+                                JavaScript and followed best practices to build a js application. 
+                            </p>
+    
+                            <div class="space-x-6 flex justify-center">
+                                <a href="https://github.com/majedalshehri1/TodoList-js.git" 
+                                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 `active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                                Code <i class="uil uil-github"></i></a>
+                                <a href="https://majedalshehri1.github.io/TodoList-js/" 
+                                class="inline-block rounded-full bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 `active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                                Live Demo <i class="uil uil-external-link-alt"></i></a>
+                            </div>
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <!-- Section: Design Block -->
+            </div>
+            <!-- Container for demo purpose -->   
+                
+            </section>
+
+            
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+
+                <div class="contact__container container-1 grid-404">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+966551197365</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">majedbiz@hotmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Saudi Arabia - Jeddah</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid-404">
+
+                        <div class="contact__inputs grid-404">
+                            <div class="contact__content">
+                                <lable class="contact__label">Name</lable>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <lable class="contact__label">Email</lable>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <lable class="contact__label">Message</lable>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+         
+            <div class="footer__bg">
+                <div class="footer__container container-1 grid-404">
+                    <div>
+                        <h1 class="footer__title">Majed</h1>
+                        <span class="footer__subtitle">MERNStack Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://twitter.com/majedshh1" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/majedalshehri1" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/majedd/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; MajedAhmed. All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
